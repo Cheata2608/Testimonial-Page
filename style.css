@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..500&display=swap");
+* {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+  color: #18181b;
+}
+p {
+  color: #52525a;
+}
+.icon,
+h1,
+.rule,
+.checklist {
+  margin-left: 45px;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 15px;
+}
+.rule {
+  font-size: 1.25rem;
+  margin: 0 0 30px 45px;
+  line-height: 30px;
+}
+.icon {
+  margin: 20px 45px;
+  width: 42px;
+  height: 42px;
+  background-color: #fbd06b;
+  border-radius: 50%;
+}
+
+.check-list ul {
+  list-style: none;
+}
+.check-list ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 0.85rem;
+  color: #52525a;
+}
+.check-list ul li img {
+  margin: 0 10px;
+}
+
+/* reviewer  */
+.reviewer-one,
+.reviewer-two {
+  margin: 20px 40px;
+  width: 280px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 6px 6px 15px rgb(213, 212, 212);
+}
+.reviewer-one {
+  float: right;
+}
+.reviewer-two {
+  float: left;
+}
+.google,
+.meta {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.reviewer-one > p,
+.reviewer-two > p {
+  line-height: 24px;
+  margin: 0;
+}
+.reviewer-one > h4,
+.reviewer-two > h4 {
+  margin: 10px 0;
+}
+article {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafaf9;
+}
+.reviewer {
+  /* background-color: dodgerblue; */
+  flex: 50%;
+}
+.review-container {
+  flex: 50%;
+}
+@media only screen and (max-width: 640px) {
+  article {
+    flex-direction: column;
+    padding: 60px 0;
+  }
+  .icon,
+  h1,
+  .rule,
+  .checklist {
+    margin: 20px;
+  }
+  .check-list ul {
+    padding: 0;
+    margin: 12px;
+  }
+  .reviewer-one,
+  .reviewer-two {
+    margin: 20px 18px;
+  }
+}
