@@ -103,6 +103,9 @@ article {
   .checklist {
     margin: 20px;
   }
+  .check-list ul li {
+  font-size: 0.93rem;
+  }
   .check-list ul {
     padding: 0;
     margin: 12px;
